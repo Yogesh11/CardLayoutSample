@@ -108,7 +108,7 @@ class CustomLayout: UICollectionViewLayout {
         if !isFromInitialState {
             cache.removeAll()
             prepare()
-            //collectionView?.contentSize = CGSize(width: contentWidth, height: contentHeight)
+            collectionView?.contentSize = CGSize(width: contentWidth, height: contentHeight)
         }
     }
 
